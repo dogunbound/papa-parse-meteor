@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom("METEOR@0.9.3");
+  api.versionsFrom("METEOR@2.0");
   api.use("jquery");
   api.addFiles('papa-parse.js', 'client');
   api.addFiles('baby-parse.js', 'server');
